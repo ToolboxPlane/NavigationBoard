@@ -21538,6 +21538,290 @@ MPL3115A2
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-RF" urn="urn:adsk.eagle:library:531">
+<description>&lt;h3&gt;SparkFun RF, WiFi, Cellular, and Bluetooth&lt;/h3&gt;
+In this library you'll find things that send or receive RF-- cellular modules, Bluetooth, WiFi, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="RFM69HCW-XXXS2" urn="urn:adsk.eagle:footprint:39514/1" library_version="1">
+<description>&lt;h3&gt;Hope RF RFM69HCW RF Transciever&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://www.orcam.eu/res/Datablad/rfm69hcwv11.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<smd name="4" x="-7.5" y="1" dx="3" dy="1.2" layer="1"/>
+<smd name="3" x="-7.5" y="3" dx="3" dy="1.2" layer="1"/>
+<smd name="2" x="-7.5" y="5" dx="3" dy="1.2" layer="1"/>
+<smd name="1" x="-7.5" y="7" dx="3" dy="1.2" layer="1"/>
+<smd name="5" x="-7.5" y="-1" dx="3" dy="1.2" layer="1"/>
+<smd name="6" x="-7.5" y="-3" dx="3" dy="1.2" layer="1"/>
+<smd name="7" x="-7.5" y="-5" dx="3" dy="1.2" layer="1"/>
+<smd name="8" x="-7.5" y="-7" dx="3" dy="1.2" layer="1"/>
+<smd name="9" x="7.5" y="-7" dx="3" dy="1.2" layer="1"/>
+<smd name="10" x="7.5" y="-5" dx="3" dy="1.2" layer="1"/>
+<smd name="11" x="7.5" y="-3" dx="3" dy="1.2" layer="1"/>
+<smd name="12" x="7.5" y="-1" dx="3" dy="1.2" layer="1"/>
+<smd name="13" x="7.5" y="1" dx="3" dy="1.2" layer="1"/>
+<smd name="14" x="7.5" y="3" dx="3" dy="1.2" layer="1"/>
+<smd name="15" x="7.5" y="5" dx="3" dy="1.2" layer="1"/>
+<smd name="16" x="7.5" y="7" dx="3" dy="1.2" layer="1"/>
+<text x="0" y="8.255" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.3" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<text x="-5.485" y="5.35" size="1.27" layer="51" font="vector" ratio="12">1</text>
+<wire x1="-8.127" y1="8.127" x2="8.127" y2="8.127" width="0.2032" layer="21"/>
+<wire x1="8.127" y1="-8.127" x2="-8.127" y2="-8.127" width="0.2032" layer="21"/>
+<wire x1="-4" y1="6" x2="-4" y2="2" width="0.2032" layer="51"/>
+<wire x1="-4" y1="2" x2="0" y2="2" width="0.2032" layer="51"/>
+<wire x1="0" y1="2" x2="0" y2="6" width="0.2032" layer="51"/>
+<wire x1="0" y1="6" x2="-4" y2="6" width="0.2032" layer="51"/>
+<wire x1="2" y1="-0.5" x2="2" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="4" y1="1.5" x2="2" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="4" y1="-0.5" x2="4" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="4" y1="-0.5" x2="2" y2="-0.5" width="0.2032" layer="51"/>
+<wire x1="-8" y1="-8" x2="8" y2="-8" width="0.127" layer="51"/>
+<wire x1="8" y1="-8" x2="8" y2="8" width="0.127" layer="51"/>
+<wire x1="8" y1="8" x2="-8" y2="8" width="0.127" layer="51"/>
+<wire x1="-8" y1="8" x2="-8" y2="-8" width="0.127" layer="51"/>
+<wire x1="-8.127" y1="-8.127" x2="-8.127" y2="-7.859" width="0.2032" layer="21"/>
+<wire x1="8.127" y1="-7.859" x2="8.127" y2="-8.127" width="0.2032" layer="21"/>
+<wire x1="-8.127" y1="5.826" x2="-8.127" y2="6.1562" width="0.2032" layer="21"/>
+<wire x1="8.127" y1="8.127" x2="8.127" y2="7.859" width="0.2032" layer="21"/>
+<wire x1="-8.127" y1="7.859" x2="-8.127" y2="8.127" width="0.2032" layer="21"/>
+<wire x1="-8.127" y1="3.826" x2="-8.127" y2="4.1562" width="0.2032" layer="21"/>
+<wire x1="-8.127" y1="1.826" x2="-8.127" y2="2.1562" width="0.2032" layer="21"/>
+<wire x1="-8.127" y1="-0.174" x2="-8.127" y2="0.1562" width="0.2032" layer="21"/>
+<wire x1="-8.127" y1="-2.174" x2="-8.127" y2="-1.8438" width="0.2032" layer="21"/>
+<wire x1="-8.127" y1="-4.174" x2="-8.127" y2="-3.8438" width="0.2032" layer="21"/>
+<wire x1="-8.127" y1="-6.174" x2="-8.127" y2="-5.8438" width="0.2032" layer="21"/>
+<wire x1="8.127" y1="-5.826" x2="8.127" y2="-6.1562" width="0.2032" layer="21"/>
+<wire x1="8.127" y1="-3.826" x2="8.127" y2="-4.1562" width="0.2032" layer="21"/>
+<wire x1="8.127" y1="-1.826" x2="8.127" y2="-2.1562" width="0.2032" layer="21"/>
+<wire x1="8.127" y1="0.174" x2="8.127" y2="-0.1562" width="0.2032" layer="21"/>
+<wire x1="8.127" y1="2.174" x2="8.127" y2="1.8438" width="0.2032" layer="21"/>
+<wire x1="8.127" y1="4.174" x2="8.127" y2="3.8438" width="0.2032" layer="21"/>
+<wire x1="8.127" y1="6.174" x2="8.127" y2="5.8438" width="0.2032" layer="21"/>
+<circle x="-9.089" y="8.392" radius="0.508" width="0" layer="21"/>
+</package>
+<package name="RFM69W-XXXS2" urn="urn:adsk.eagle:footprint:39515/1" library_version="1">
+<description>&lt;h3&gt;Hope RF RFM69HW RF Transceiver&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://www.hoperf.com/upload/rf/RFM69HW-V1.3.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-9.85" y1="8" x2="9.85" y2="8" width="0.127" layer="51"/>
+<wire x1="9.85" y1="-8" x2="-9.85" y2="-8" width="0.127" layer="51"/>
+<wire x1="-5" y1="-1" x2="-5" y2="-6" width="0.2032" layer="51"/>
+<wire x1="-5" y1="-6" x2="0" y2="-6" width="0.2032" layer="51"/>
+<wire x1="0" y1="-6" x2="0" y2="-1" width="0.2032" layer="51"/>
+<wire x1="0" y1="-1" x2="-5" y2="-1" width="0.2032" layer="51"/>
+<wire x1="-5" y1="7" x2="-5" y2="4" width="0.2032" layer="51"/>
+<wire x1="-5" y1="4" x2="5" y2="4" width="0.2032" layer="51"/>
+<wire x1="5" y1="4" x2="5" y2="7" width="0.2032" layer="51"/>
+<wire x1="5" y1="7" x2="-5" y2="7" width="0.2032" layer="51"/>
+<wire x1="-9.977" y1="8.127" x2="9.977" y2="8.127" width="0.2032" layer="21"/>
+<wire x1="-9.85" y1="-8" x2="-9.85" y2="8" width="0.127" layer="51"/>
+<wire x1="9.85" y1="8" x2="9.85" y2="-8" width="0.127" layer="51"/>
+<wire x1="9.977" y1="-8.127" x2="-9.977" y2="-8.127" width="0.2032" layer="21"/>
+<wire x1="-9.977" y1="-8.127" x2="-9.977" y2="-7.875" width="0.2032" layer="21"/>
+<wire x1="-9.977" y1="7.875" x2="-9.977" y2="8.127" width="0.2032" layer="21"/>
+<wire x1="-9.977" y1="5.8166" x2="-9.977" y2="6.1722" width="0.2032" layer="21"/>
+<wire x1="-9.977" y1="3.8166" x2="-9.977" y2="4.1722" width="0.2032" layer="21"/>
+<wire x1="-9.977" y1="1.8166" x2="-9.977" y2="2.1722" width="0.2032" layer="21"/>
+<wire x1="-9.977" y1="-0.1834" x2="-9.977" y2="0.1722" width="0.2032" layer="21"/>
+<wire x1="-9.977" y1="-2.1834" x2="-9.977" y2="-1.8278" width="0.2032" layer="21"/>
+<wire x1="-9.977" y1="-4.1834" x2="-9.977" y2="-3.8278" width="0.2032" layer="21"/>
+<wire x1="-9.977" y1="-6.1834" x2="-9.977" y2="-5.8278" width="0.2032" layer="21"/>
+<wire x1="9.977" y1="-5.8166" x2="9.977" y2="-6.1722" width="0.2032" layer="21"/>
+<wire x1="9.977" y1="-3.8166" x2="9.977" y2="-4.1722" width="0.2032" layer="21"/>
+<wire x1="9.977" y1="-1.8166" x2="9.977" y2="-2.1722" width="0.2032" layer="21"/>
+<wire x1="9.977" y1="0.1834" x2="9.977" y2="-0.1722" width="0.2032" layer="21"/>
+<wire x1="9.977" y1="2.1834" x2="9.977" y2="1.8278" width="0.2032" layer="21"/>
+<wire x1="9.977" y1="4.1834" x2="9.977" y2="3.8278" width="0.2032" layer="21"/>
+<wire x1="9.977" y1="6.1834" x2="9.977" y2="5.8278" width="0.2032" layer="21"/>
+<wire x1="9.977" y1="-7.875" x2="9.977" y2="-8.127" width="0.2032" layer="21"/>
+<wire x1="9.977" y1="8.127" x2="9.977" y2="7.875" width="0.2032" layer="21"/>
+<smd name="4" x="-9.35" y="1" dx="3" dy="1.2" layer="1"/>
+<smd name="3" x="-9.35" y="3" dx="3" dy="1.2" layer="1"/>
+<smd name="2" x="-9.35" y="5" dx="3" dy="1.2" layer="1"/>
+<smd name="1" x="-9.35" y="7" dx="3" dy="1.2" layer="1"/>
+<smd name="5" x="-9.35" y="-1" dx="3" dy="1.2" layer="1"/>
+<smd name="6" x="-9.35" y="-3" dx="3" dy="1.2" layer="1"/>
+<smd name="7" x="-9.35" y="-5" dx="3" dy="1.2" layer="1"/>
+<smd name="8" x="-9.35" y="-7" dx="3" dy="1.2" layer="1"/>
+<smd name="9" x="9.35" y="-7" dx="3" dy="1.2" layer="1"/>
+<smd name="10" x="9.35" y="-5" dx="3" dy="1.2" layer="1"/>
+<smd name="11" x="9.35" y="-3" dx="3" dy="1.2" layer="1"/>
+<smd name="12" x="9.35" y="-1" dx="3" dy="1.2" layer="1"/>
+<smd name="13" x="9.35" y="1" dx="3" dy="1.2" layer="1"/>
+<smd name="14" x="9.35" y="3" dx="3" dy="1.2" layer="1"/>
+<smd name="15" x="9.35" y="5" dx="3" dy="1.2" layer="1"/>
+<smd name="16" x="9.35" y="7" dx="3" dy="1.2" layer="1"/>
+<text x="-6.985" y="6.35" size="1.27" layer="51" font="vector" ratio="12">1</text>
+<text x="0" y="8.255" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.731" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<circle x="-10.435" y="8.381" radius="0.508" width="0" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="RFM69HCW-XXXS2" urn="urn:adsk.eagle:package:39566/1" type="box" library_version="1">
+<description>Hope RF RFM69HCW RF Transciever
+Datasheet</description>
+<packageinstances>
+<packageinstance name="RFM69HCW-XXXS2"/>
+</packageinstances>
+</package3d>
+<package3d name="RFM69W-XXXS2" urn="urn:adsk.eagle:package:39567/1" type="box" library_version="1">
+<description>Hope RF RFM69HW RF Transceiver
+Datasheet</description>
+<packageinstances>
+<packageinstance name="RFM69W-XXXS2"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="RFM69H" urn="urn:adsk.eagle:symbol:39513/1" library_version="1">
+<description>&lt;h3&gt;Hope RF RFM69H ISM Transceiver Module&lt;/h3&gt; 
+&lt;p&gt;The RFM69H is a transceiver module capable of operation 
+over a wide frequency range, including the 
+315,433,868 and 
+915MHz license-free ISM (Industry Scientific and Medical) 
+frequency bands. All major RF communication parameters 
+are programmable and most of them  can  be  dynamically 
+set.  The  RFM69H  offers  the unique advantage of 
+programmable narrow-band and wide- band  communication 
+modes. The RFM69H is optimized for low power 
+consumption while offering high RF output power and 
+channelized operation.
+Compliance  ETSI and FCC 
+regulations. &lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.hoperf.cn/upload/docs/RF/SX/RFM69H_DataSheet_v1.3.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<pin name="RESET" x="-12.7" y="-10.16" length="short" direction="in"/>
+<pin name="DIO0" x="12.7" y="12.7" length="short" rot="R180"/>
+<pin name="DIO1" x="12.7" y="10.16" length="short" rot="R180"/>
+<pin name="DIO2" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="DIO3" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="DIO4" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="DIO5" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="3.3V" x="-12.7" y="12.7" length="short" direction="pwr"/>
+<pin name="GND@1" x="12.7" y="-10.16" length="short" direction="pwr" rot="R180"/>
+<pin name="ANT" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="GND@2" x="12.7" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="SCK" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="MISO" x="-12.7" y="5.08" length="short"/>
+<pin name="MOSI" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="NSS" x="-12.7" y="-2.54" length="short" direction="in"/>
+<wire x1="-10.16" y1="15.24" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<text x="-10.16" y="15.494" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="-12.954" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RFM69H" urn="urn:adsk.eagle:component:39604/1" prefix="U" library_version="1">
+<description>&lt;h3&gt;Hope RF RFM69H ISM Transceiver Module&lt;/h3&gt; 
+&lt;p&gt;The RFM69H is a transceiver module capable of operation over a wide frequency range, including the 315,433,868 and 915MHz license-free ISM (Industry Scientific and Medical) frequency bands. All major RF communication parameters are programmable and most of them  can  be  dynamically set.  The  RFM69H  offers  the unique advantage of programmable narrow-band and wide- band  communication modes. The RFM69H is optimized for low power consumption while offering high RF output power and channelized operation.Compliance  ETSI and FCC regulations. &lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.hoperf.cn/upload/docs/RF/SX/RFM69H_DataSheet_v1.3.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13909"&gt;RFM69HCW Wireless Transceiver - 915MHz&lt;/a&gt; (COM-13909)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13910"&gt;RFM69HCW Wireless Transceiver - 434MHz&lt;/a&gt; (COM-13910)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12775"&gt;SparkFun RFM69 Breakout (915MHz)&lt;/a&gt; (WRL-12775)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12823"&gt;SparkFun RFM69 Breakout (434MHz)&lt;/a&gt; (WRL-12823)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RFM69H" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="CW-915" package="RFM69HCW-XXXS2">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="13"/>
+<connect gate="G$1" pin="ANT" pad="9"/>
+<connect gate="G$1" pin="DIO0" pad="14"/>
+<connect gate="G$1" pin="DIO1" pad="15"/>
+<connect gate="G$1" pin="DIO2" pad="16"/>
+<connect gate="G$1" pin="DIO3" pad="11"/>
+<connect gate="G$1" pin="DIO4" pad="12"/>
+<connect gate="G$1" pin="DIO5" pad="7"/>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@2" pad="8 10"/>
+<connect gate="G$1" pin="MISO" pad="2"/>
+<connect gate="G$1" pin="MOSI" pad="3"/>
+<connect gate="G$1" pin="NSS" pad="5"/>
+<connect gate="G$1" pin="RESET" pad="6"/>
+<connect gate="G$1" pin="SCK" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39566/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-11997"/>
+<attribute name="VALUE" value="915MHz"/>
+</technology>
+</technologies>
+</device>
+<device name="W" package="RFM69W-XXXS2">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="8"/>
+<connect gate="G$1" pin="ANT" pad="10"/>
+<connect gate="G$1" pin="DIO0" pad="2"/>
+<connect gate="G$1" pin="DIO1" pad="3"/>
+<connect gate="G$1" pin="DIO2" pad="4"/>
+<connect gate="G$1" pin="DIO3" pad="5"/>
+<connect gate="G$1" pin="DIO4" pad="6"/>
+<connect gate="G$1" pin="DIO5" pad="7"/>
+<connect gate="G$1" pin="GND@1" pad="9"/>
+<connect gate="G$1" pin="GND@2" pad="11"/>
+<connect gate="G$1" pin="MISO" pad="13"/>
+<connect gate="G$1" pin="MOSI" pad="14"/>
+<connect gate="G$1" pin="NSS" pad="15"/>
+<connect gate="G$1" pin="RESET" pad="1"/>
+<connect gate="G$1" pin="SCK" pad="12"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39567/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CW-433" package="RFM69HCW-XXXS2">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="13"/>
+<connect gate="G$1" pin="ANT" pad="9"/>
+<connect gate="G$1" pin="DIO0" pad="14"/>
+<connect gate="G$1" pin="DIO1" pad="15"/>
+<connect gate="G$1" pin="DIO2" pad="16"/>
+<connect gate="G$1" pin="DIO3" pad="11"/>
+<connect gate="G$1" pin="DIO4" pad="12"/>
+<connect gate="G$1" pin="DIO5" pad="7"/>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@2" pad="8 10"/>
+<connect gate="G$1" pin="MISO" pad="2"/>
+<connect gate="G$1" pin="MOSI" pad="3"/>
+<connect gate="G$1" pin="NSS" pad="5"/>
+<connect gate="G$1" pin="RESET" pad="6"/>
+<connect gate="G$1" pin="SCK" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39566/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-12053"/>
+<attribute name="VALUE" value="433MHz"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21649,6 +21933,13 @@ MPL3115A2
 <part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="U4" library="SparkFun-RF" library_urn="urn:adsk.eagle:library:531" deviceset="RFM69H" device="CW-433" package3d_urn="urn:adsk.eagle:package:39566/1" value="433MHz"/>
+<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="R21" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<part name="X1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SMACONNECTOR" device="_EDGE"/>
+<part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21682,13 +21973,13 @@ naming from µC side</text>
 <instance part="GND4" gate="1" x="25.4" y="134.62"/>
 <instance part="R3" gate="G$1" x="43.18" y="157.48" rot="R90"/>
 <instance part="P+4" gate="G$1" x="43.18" y="167.64"/>
-<instance part="C8" gate="G$1" x="180.34" y="88.9"/>
-<instance part="C9" gate="G$1" x="190.5" y="88.9"/>
-<instance part="C10" gate="G$1" x="200.66" y="88.9"/>
-<instance part="C11" gate="G$1" x="210.82" y="88.9"/>
-<instance part="C12" gate="G$1" x="220.98" y="88.9"/>
-<instance part="P+5" gate="G$1" x="200.66" y="99.06"/>
-<instance part="GND5" gate="1" x="200.66" y="76.2"/>
+<instance part="C8" gate="G$1" x="195.58" y="88.9"/>
+<instance part="C9" gate="G$1" x="205.74" y="88.9"/>
+<instance part="C10" gate="G$1" x="215.9" y="88.9"/>
+<instance part="C11" gate="G$1" x="226.06" y="88.9"/>
+<instance part="C12" gate="G$1" x="236.22" y="88.9"/>
+<instance part="P+5" gate="G$1" x="215.9" y="99.06"/>
+<instance part="GND5" gate="1" x="215.9" y="76.2"/>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
 <instance part="R14" gate="G$1" x="27.94" y="68.58" rot="R90"/>
 <instance part="R20" gate="G$1" x="33.02" y="66.04" rot="R90"/>
@@ -21754,23 +22045,23 @@ naming from µC side</text>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="83.82" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="83.82" x2="195.58" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="81.28" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="81.28" x2="200.66" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="81.28" x2="210.82" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="81.28" x2="220.98" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="81.28" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="81.28" x2="205.74" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="81.28" x2="215.9" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="81.28" x2="226.06" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="81.28" x2="236.22" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="81.28" x2="236.22" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="83.82" x2="210.82" y2="81.28" width="0.1524" layer="91"/>
-<junction x="210.82" y="81.28"/>
+<wire x1="226.06" y1="83.82" x2="226.06" y2="81.28" width="0.1524" layer="91"/>
+<junction x="226.06" y="81.28"/>
 <pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="83.82" x2="200.66" y2="81.28" width="0.1524" layer="91"/>
-<junction x="200.66" y="81.28"/>
+<wire x1="215.9" y1="83.82" x2="215.9" y2="81.28" width="0.1524" layer="91"/>
+<junction x="215.9" y="81.28"/>
 <pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="83.82" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
-<junction x="190.5" y="81.28"/>
-<wire x1="200.66" y1="81.28" x2="200.66" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="83.82" x2="205.74" y2="81.28" width="0.1524" layer="91"/>
+<junction x="205.74" y="81.28"/>
+<wire x1="215.9" y1="81.28" x2="215.9" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -21959,23 +22250,23 @@ naming from µC side</text>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="91.44" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="93.98" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="91.44" x2="195.58" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="93.98" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="93.98" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="93.98" x2="210.82" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="93.98" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="93.98" x2="220.98" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="93.98" x2="215.9" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="93.98" x2="226.06" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="93.98" x2="236.22" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="93.98" x2="236.22" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="91.44" x2="210.82" y2="93.98" width="0.1524" layer="91"/>
-<junction x="210.82" y="93.98"/>
+<wire x1="226.06" y1="91.44" x2="226.06" y2="93.98" width="0.1524" layer="91"/>
+<junction x="226.06" y="93.98"/>
 <pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="91.44" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
-<junction x="200.66" y="93.98"/>
+<wire x1="215.9" y1="91.44" x2="215.9" y2="93.98" width="0.1524" layer="91"/>
+<junction x="215.9" y="93.98"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="91.44" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
-<junction x="190.5" y="93.98"/>
-<wire x1="200.66" y1="93.98" x2="200.66" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="91.44" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
+<junction x="205.74" y="93.98"/>
+<wire x1="215.9" y1="93.98" x2="215.9" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
@@ -22086,6 +22377,62 @@ naming from µC side</text>
 <pinref part="U2" gate="A" pin="PK1_(ADC9/PCINT17)"/>
 <wire x1="157.48" y1="124.46" x2="160.02" y2="124.46" width="0.1524" layer="91"/>
 <label x="160.02" y="124.46" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!LORA_SS" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PJ7"/>
+<wire x1="157.48" y1="86.36" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
+<label x="165.1" y="86.36" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LORA_DIO2" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PJ2_(XCK3/PCINT11)"/>
+<wire x1="157.48" y1="99.06" x2="165.1" y2="99.06" width="0.1524" layer="91"/>
+<label x="165.1" y="99.06" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LORA_DIO3" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PJ3_(PCINT12)"/>
+<wire x1="157.48" y1="96.52" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
+<label x="165.1" y="96.52" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LORA_DIO4" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PJ4_(PCINT13)"/>
+<wire x1="157.48" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<label x="165.1" y="93.98" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LORA_DIO5" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PJ5_(PCINT14)"/>
+<wire x1="157.48" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
+<label x="165.1" y="91.44" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!LORA_RST" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PJ6_(PCINT15)"/>
+<wire x1="157.48" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
+<label x="165.1" y="88.9" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LORA_DIO1" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PJ1_(TXD3/PCINT10)"/>
+<wire x1="157.48" y1="101.6" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
+<label x="165.1" y="101.6" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LORA_DIO0" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PJ0_(RXD3/PCINT9)"/>
+<wire x1="157.48" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
+<label x="165.1" y="104.14" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -22683,6 +23030,8 @@ naming from µC side</text>
 please consult GlobalTop
 support to enable this feature.
 (neccessary for DGPS)</text>
+<text x="86.36" y="119.38" size="1.778" layer="91">RFM69 and RFM96W have the same
+pinout so the same schematic is used.</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -22710,6 +23059,13 @@ support to enable this feature.
 <instance part="GND14" gate="1" x="292.1" y="175.26"/>
 <instance part="+3V5" gate="G$1" x="271.78" y="203.2"/>
 <instance part="GND15" gate="1" x="271.78" y="180.34"/>
+<instance part="U4" gate="G$1" x="104.14" y="99.06"/>
+<instance part="GND16" gate="1" x="119.38" y="83.82"/>
+<instance part="+3V8" gate="G$1" x="88.9" y="116.84"/>
+<instance part="+3V9" gate="G$1" x="68.58" y="106.68"/>
+<instance part="R21" gate="G$1" x="68.58" y="96.52" rot="R90"/>
+<instance part="X1" gate="G$1" x="149.86" y="91.44"/>
+<instance part="GND19" gate="1" x="147.32" y="73.66"/>
 </instances>
 <busses>
 </busses>
@@ -22762,6 +23118,17 @@ support to enable this feature.
 <wire x1="271.78" y1="198.12" x2="271.78" y2="200.66" width="0.1524" layer="91"/>
 <junction x="271.78" y="198.12"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="3.3V"/>
+<wire x1="91.44" y1="111.76" x2="88.9" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="111.76" x2="88.9" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="+3V8" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="+3V9" gate="G$1" pin="+3V3"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="104.14" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -22834,6 +23201,36 @@ support to enable this feature.
 <wire x1="271.78" y1="185.42" x2="271.78" y2="182.88" width="0.1524" layer="91"/>
 <junction x="271.78" y="185.42"/>
 <pinref part="GND15" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="GND@2"/>
+<wire x1="116.84" y1="93.98" x2="119.38" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="93.98" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="GND@1"/>
+<wire x1="119.38" y1="88.9" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="88.9" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
+<junction x="119.38" y="88.9"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="GND1"/>
+<wire x1="147.32" y1="99.06" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="101.6" x2="152.4" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="GND2"/>
+<wire x1="152.4" y1="101.6" x2="152.4" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="101.6" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="101.6" x2="157.48" y2="81.28" width="0.1524" layer="91"/>
+<junction x="152.4" y="101.6"/>
+<wire x1="157.48" y1="81.28" x2="152.4" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="GND3"/>
+<wire x1="152.4" y1="81.28" x2="147.32" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="81.28" x2="147.32" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="GND4"/>
+<wire x1="152.4" y1="83.82" x2="152.4" y2="81.28" width="0.1524" layer="91"/>
+<junction x="152.4" y="81.28"/>
+<wire x1="147.32" y1="81.28" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
+<junction x="147.32" y="81.28"/>
+<pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="!GPS_RST" class="0">
@@ -22924,6 +23321,94 @@ support to enable this feature.
 <pinref part="U3" gate="G$1" pin="INT2"/>
 <wire x1="330.2" y1="187.96" x2="332.74" y2="187.96" width="0.1524" layer="91"/>
 <label x="332.74" y="187.96" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MISO" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="MISO"/>
+<wire x1="91.44" y1="104.14" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
+<label x="88.9" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOSI" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="MOSI"/>
+<wire x1="91.44" y1="101.6" x2="88.9" y2="101.6" width="0.1524" layer="91"/>
+<label x="88.9" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SCK" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="SCK"/>
+<wire x1="91.44" y1="99.06" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
+<label x="88.9" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="!LORA_SS" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="NSS"/>
+<wire x1="91.44" y1="96.52" x2="88.9" y2="96.52" width="0.1524" layer="91"/>
+<label x="88.9" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="!LORA_RST" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="RESET"/>
+<wire x1="91.44" y1="88.9" x2="68.58" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="88.9" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="91.44" x2="68.58" y2="88.9" width="0.1524" layer="91"/>
+<junction x="68.58" y="88.9"/>
+<label x="60.96" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="ANT"/>
+<pinref part="X1" gate="G$1" pin="ANT"/>
+<wire x1="116.84" y1="91.44" x2="142.24" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LORA_DIO5" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="DIO5"/>
+<wire x1="116.84" y1="99.06" x2="121.92" y2="99.06" width="0.1524" layer="91"/>
+<label x="121.92" y="99.06" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LORA_DIO4" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="DIO4"/>
+<wire x1="116.84" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<label x="121.92" y="101.6" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LORA_DIO3" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="DIO3"/>
+<wire x1="116.84" y1="104.14" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
+<label x="121.92" y="104.14" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LORA_DIO2" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="DIO2"/>
+<wire x1="116.84" y1="106.68" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
+<label x="121.92" y="106.68" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LORA_DIO1" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="DIO1"/>
+<wire x1="116.84" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
+<label x="121.92" y="109.22" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LORA_DIO0" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="DIO0"/>
+<wire x1="116.84" y1="111.76" x2="121.92" y2="111.76" width="0.1524" layer="91"/>
+<label x="121.92" y="111.76" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
