@@ -21639,6 +21639,16 @@ MPL3115A2
 <part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.01u"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10u"/>
+<part name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
+<part name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
+<part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<part name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21680,6 +21690,9 @@ naming from µC side</text>
 <instance part="P+5" gate="G$1" x="200.66" y="99.06"/>
 <instance part="GND5" gate="1" x="200.66" y="76.2"/>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
+<instance part="R14" gate="G$1" x="27.94" y="68.58" rot="R90"/>
+<instance part="R20" gate="G$1" x="33.02" y="66.04" rot="R90"/>
+<instance part="+3V7" gate="G$1" x="22.86" y="76.2" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -22002,6 +22015,16 @@ naming from µC side</text>
 <wire x1="198.12" y1="149.86" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
 <junction x="195.58" y="149.86"/>
 </segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="71.12" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="76.2" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="76.2" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
+<junction x="27.94" y="76.2"/>
+<pinref part="+3V7" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="GPS_TX" class="0">
 <segment>
@@ -22029,6 +22052,40 @@ naming from µC side</text>
 <pinref part="U2" gate="A" pin="(XCK1)_PD5"/>
 <wire x1="50.8" y1="50.8" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
 <label x="45.72" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SDA" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="(SDA/INT1)_PD1"/>
+<wire x1="50.8" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="60.96" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
+<junction x="33.02" y="60.96"/>
+<label x="22.86" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SCL" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="(SCL/INT0)_PD0"/>
+<wire x1="50.8" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="63.5" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
+<junction x="27.94" y="63.5"/>
+<label x="22.86" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BARO_INT1" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PK0_(ADC8/PCINT16)"/>
+<wire x1="157.48" y1="127" x2="160.02" y2="127" width="0.1524" layer="91"/>
+<label x="160.02" y="127" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="BARO_INT2" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PK1_(ADC9/PCINT17)"/>
+<wire x1="157.48" y1="124.46" x2="160.02" y2="124.46" width="0.1524" layer="91"/>
+<label x="160.02" y="124.46" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -22630,7 +22687,7 @@ support to enable this feature.
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
 <instance part="U1" gate="G$1" x="106.68" y="203.2"/>
-<instance part="U3" gate="G$1" x="266.7" y="213.36"/>
+<instance part="U3" gate="G$1" x="317.5" y="193.04"/>
 <instance part="+3V1" gate="G$1" x="86.36" y="228.6"/>
 <instance part="GND2" gate="1" x="83.82" y="208.28" rot="R270"/>
 <instance part="GND8" gate="1" x="83.82" y="195.58" rot="R270"/>
@@ -22646,6 +22703,13 @@ support to enable this feature.
 <instance part="C2" gate="G$1" x="193.04" y="187.96"/>
 <instance part="+3V3" gate="G$1" x="187.96" y="198.12"/>
 <instance part="GND12" gate="1" x="187.96" y="175.26"/>
+<instance part="+3V4" gate="G$1" x="294.64" y="205.74"/>
+<instance part="C3" gate="G$1" x="276.86" y="193.04"/>
+<instance part="C4" gate="G$1" x="266.7" y="193.04"/>
+<instance part="C5" gate="G$1" x="287.02" y="190.5"/>
+<instance part="GND14" gate="1" x="292.1" y="175.26"/>
+<instance part="+3V5" gate="G$1" x="271.78" y="203.2"/>
+<instance part="GND15" gate="1" x="271.78" y="180.34"/>
 </instances>
 <busses>
 </busses>
@@ -22677,6 +22741,27 @@ support to enable this feature.
 <wire x1="187.96" y1="193.04" x2="187.96" y2="195.58" width="0.1524" layer="91"/>
 <junction x="187.96" y="193.04"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="VDD"/>
+<wire x1="304.8" y1="195.58" x2="294.64" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="195.58" x2="294.64" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="VDDIO"/>
+<wire x1="304.8" y1="187.96" x2="294.64" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="187.96" x2="294.64" y2="195.58" width="0.1524" layer="91"/>
+<junction x="294.64" y="195.58"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="195.58" x2="266.7" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="198.12" x2="271.78" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="198.12" x2="276.86" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="198.12" x2="276.86" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="198.12" x2="271.78" y2="200.66" width="0.1524" layer="91"/>
+<junction x="271.78" y="198.12"/>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -22726,6 +22811,29 @@ support to enable this feature.
 <wire x1="187.96" y1="180.34" x2="187.96" y2="177.8" width="0.1524" layer="91"/>
 <junction x="187.96" y="180.34"/>
 <pinref part="GND12" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="GND"/>
+<wire x1="304.8" y1="190.5" x2="297.18" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="190.5" x2="297.18" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="297.18" y1="180.34" x2="292.1" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="180.34" x2="287.02" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="180.34" x2="287.02" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="180.34" x2="292.1" y2="177.8" width="0.1524" layer="91"/>
+<junction x="292.1" y="180.34"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="276.86" y1="187.96" x2="276.86" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="185.42" x2="271.78" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="271.78" y1="185.42" x2="266.7" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="185.42" x2="266.7" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="185.42" x2="271.78" y2="182.88" width="0.1524" layer="91"/>
+<junction x="271.78" y="185.42"/>
+<pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="!GPS_RST" class="0">
@@ -22781,6 +22889,41 @@ support to enable this feature.
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="LED_GPS" gate="G$1" pin="C"/>
 <wire x1="50.8" y1="215.9" x2="50.8" y2="218.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="CAP"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="304.8" y1="193.04" x2="287.02" y2="193.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SCL" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="SCL"/>
+<wire x1="330.2" y1="195.58" x2="332.74" y2="195.58" width="0.1524" layer="91"/>
+<label x="332.74" y="195.58" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SDA" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="SDA"/>
+<wire x1="330.2" y1="193.04" x2="332.74" y2="193.04" width="0.1524" layer="91"/>
+<label x="332.74" y="193.04" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="BARO_INT1" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="INT1"/>
+<wire x1="330.2" y1="190.5" x2="332.74" y2="190.5" width="0.1524" layer="91"/>
+<label x="332.74" y="190.5" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="BARO_INT2" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="INT2"/>
+<wire x1="330.2" y1="187.96" x2="332.74" y2="187.96" width="0.1524" layer="91"/>
+<label x="332.74" y="187.96" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
