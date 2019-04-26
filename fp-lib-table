@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name GPS)(type KiCad)(uri ${KIPRJMOD}/GPS.pretty)(options "")(descr ""))
+  (lib (name GT-USB-7010)(type KiCad)(uri ${KIPRJMOD}/GT-USB-7010)(options "")(descr ""))
+)
