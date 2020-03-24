@@ -1,0 +1,9 @@
+[submodule "FT230Module"]
+	path = FT230Module
+	url = git@github.com:ToolboxPlane/FT230Module.git
+[submodule "GT-USB-7010"]
+	path = GT-USB-7010
+	url = git@github.com:ToolboxPlane/GT-USB-7010.git
+[submodule "Type-C.pretty"]
+	path = Type-C.pretty
+	url = https://github.com/ai03-2725/Type-C.pretty.git
