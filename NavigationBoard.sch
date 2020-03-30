@@ -280,17 +280,6 @@ F 3 "http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf" H 2200 4150 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor_Pressure:MPL115A1 U4
-U 1 1 5CBD9B8B
-P 9700 4500
-F 0 "U4" H 10244 4546 50  0000 L CNN
-F 1 "MPL115A1" H 10244 4455 50  0000 L CNN
-F 2 "Package_LGA:NXP_MPL115A1_LGA-8_3x5mm_P1.25mm" H 9850 3800 50  0001 C CNN
-F 3 "http://www.nxp.com/assets/documents/data/en/data-sheets/MPL115A1.pdf" H 9700 4500 50  0001 C CNN
-	1    9700 4500
-	1    0    0    -1  
-$EndComp
-$Comp
 L MCU_Microchip_ATmega:ATmega2560-16AU U1
 U 1 1 5CBD3B12
 P 3750 3800
@@ -677,4 +666,68 @@ Wire Wire Line
 Connection ~ 6400 4850
 Wire Wire Line
 	6400 5500 6650 5500
+$Comp
+L Connector:AVR-ISP-6 J6
+U 1 1 5E8952E8
+P 6550 3800
+F 0 "J6" H 6270 3896 50  0000 R CNN
+F 1 "AVR-ISP-6" H 6270 3805 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" V 6300 3850 50  0001 C CNN
+F 3 " ~" H 5275 3250 50  0001 C CNN
+	1    6550 3800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3600 6100 3600
+Wire Wire Line
+	6150 3700 6100 3700
+Wire Wire Line
+	6150 3800 6100 3800
+Wire Wire Line
+	6150 3900 6100 3900
+Wire Wire Line
+	6650 3300 6650 3200
+Wire Wire Line
+	6650 4200 6650 4300
+$Comp
+L power:GND #PWR0120
+U 1 1 5E8A7489
+P 6650 4300
+F 0 "#PWR0120" H 6650 4050 50  0001 C CNN
+F 1 "GND" H 6655 4127 50  0000 C CNN
+F 2 "" H 6650 4300 50  0001 C CNN
+F 3 "" H 6650 4300 50  0001 C CNN
+	1    6650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0121
+U 1 1 5E8A80F1
+P 6650 3200
+F 0 "#PWR0121" H 6650 3050 50  0001 C CNN
+F 1 "+3V3" H 6665 3373 50  0000 C CNN
+F 2 "" H 6650 3200 50  0001 C CNN
+F 3 "" H 6650 3200 50  0001 C CNN
+	1    6650 3200
+	1    0    0    -1  
+$EndComp
+Text Label 6100 3600 2    50   ~ 0
+MISO
+Text Label 6100 3700 2    50   ~ 0
+MOSI
+Text Label 6100 3800 2    50   ~ 0
+SCK
+Text Label 6100 3900 2    50   ~ 0
+~RST
+$Comp
+L Sensor_Pressure:MPL3115A2 U4
+U 1 1 5E8CB1FC
+P 9650 4500
+F 0 "U4" H 9650 3911 50  0000 C CNN
+F 1 "MPL3115A2" H 9650 3820 50  0000 C CNN
+F 2 "Package_LGA:NXP_LGA-8_3x5mm_P1.25mm_H1.1mm" H 10650 4050 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/MPL3115A2.pdf" H 9650 4500 50  0001 C CNN
+	1    9650 4500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
