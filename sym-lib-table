@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name GPS)(type Legacy)(uri ${KIPRJMOD}/GPS.lib)(options "")(descr ""))
 )
