@@ -1,4 +1,4 @@
-update=05/04/2019 20:44:53
+update=Mo 30 Mär 2020 16:14:17 CEST
 version=1
 last_client=kicad
 [general]
@@ -32,3 +32,8 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[SchematicFrame]
+version=1
+[sheetnames]
+1=00000000-0000-0000-0000-00005e81fea0:
+2=00000000-0000-0000-0000-00005cc1b3f8:FT230
