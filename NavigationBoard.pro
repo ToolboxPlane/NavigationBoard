@@ -1,4 +1,4 @@
-update=Mo 30 Mär 2020 17:04:38 CEST
+update=Di 31 Mär 2020 04:00:39 CEST
 version=1
 last_client=kicad
 [general]
@@ -12,28 +12,27 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[SchematicFrame]
+version=1
+[sheetnames]
+1=00000000-0000-0000-0000-00005e82f5b9:
+2=00000000-0000-0000-0000-00005cc1b3f8:FT230
 [pcbnew]
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-LastSTEPExportPath=
-LastIDFExportPath=
-LastVRMLExportPath=
-LastSpecctraDSNExportPath=
-LastGenCADExportPath=
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
+RequireCourtyardDefinitions=0
+ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.09999999999999999
 MinViaDiameter=0.45
 MinViaDrill=0.2
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-RequireCourtyardDefinitions=0
-ProhibitOverlappingCourtyards=1
-CopperEdgeClearance=0.01
 TrackWidth1=0.25
 TrackWidth2=0.2
 TrackWidth3=0.25
@@ -42,6 +41,8 @@ TrackWidth5=0.4
 TrackWidth6=0.5
 ViaDiameter1=0.8
 ViaDrill1=0.4
+ViaDiameter2=0.5
+ViaDrill2=0.25
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -64,13 +65,11 @@ OthersTextSizeV=1
 OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
-OthersTextUpright=0
-DimensionUnits=0
-DimensionPrecision=1
+OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -249,8 +248,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[SchematicFrame]
-version=1
-[sheetnames]
-1=00000000-0000-0000-0000-00005e82f5b9:
-2=00000000-0000-0000-0000-00005cc1b3f8:FT230
