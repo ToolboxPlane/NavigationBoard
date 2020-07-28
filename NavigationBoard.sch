@@ -672,7 +672,7 @@ U 1 1 5E8952E8
 P 6550 3800
 F 0 "J6" H 6350 3450 50  0000 R CNN
 F 1 "AVR-ISP-6" H 7000 3450 50  0000 R CNN
-F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" V 6300 3850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 6300 3850 50  0001 C CNN
 F 3 " ~" H 5275 3250 50  0001 C CNN
 	1    6550 3800
 	-1   0    0    -1  
