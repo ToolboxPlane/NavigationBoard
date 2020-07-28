@@ -720,7 +720,7 @@ SCK
 Text Label 6100 3900 2    50   ~ 0
 ~RST
 $Comp
-L Sensor_Pressure:MPL3115A2 U4
+L NavigationBoard-rescue:MPL3115A2-Sensor_Pressure U4
 U 1 1 5E8CB1FC
 P 9650 4500
 F 0 "U4" H 9400 4050 50  0000 C CNN
