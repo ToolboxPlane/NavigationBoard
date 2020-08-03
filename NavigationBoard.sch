@@ -225,50 +225,6 @@ F 3 "~" H 6150 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J1
-U 1 1 5CBD6E70
-P 9650 1500
-F 0 "J1" H 9730 1542 50  0000 L CNN
-F 1 "Conn_01x03" H 9730 1451 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9650 1500 50  0001 C CNN
-F 3 "~" H 9650 1500 50  0001 C CNN
-	1    9650 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J2
-U 1 1 5CBD7518
-P 9650 1900
-F 0 "J2" H 9730 1942 50  0000 L CNN
-F 1 "Conn_01x03" H 9730 1851 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9650 1900 50  0001 C CNN
-F 3 "~" H 9650 1900 50  0001 C CNN
-	1    9650 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J3
-U 1 1 5CBD7CD8
-P 9650 2300
-F 0 "J3" H 9730 2342 50  0000 L CNN
-F 1 "Conn_01x03" H 9730 2251 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9650 2300 50  0001 C CNN
-F 3 "~" H 9650 2300 50  0001 C CNN
-	1    9650 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J4
-U 1 1 5CBD902F
-P 9650 3100
-F 0 "J4" H 9730 3142 50  0000 L CNN
-F 1 "Conn_01x03" H 9730 3051 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9650 3100 50  0001 C CNN
-F 3 "~" H 9650 3100 50  0001 C CNN
-	1    9650 3100
-	1    0    0    -1  
-$EndComp
-$Comp
 L RF_Module:RFM96W-433S2 U2
 U 1 1 5CBDAC91
 P 5500 2500
@@ -908,15 +864,4 @@ Wire Wire Line
 Wire Wire Line
 	10550 3950 10550 4000
 Connection ~ 10200 3950
-$Comp
-L Connector_Generic:Conn_01x02 J7
-U 1 1 5E831A29
-P 8450 2750
-F 0 "J7" H 8530 2742 50  0000 L CNN
-F 1 "Conn_01x02" H 8530 2651 50  0000 L CNN
-F 2 "Connector_AMASS:AMASS_XT30UPB-M_1x02_P5.0mm_Vertical" H 8450 2750 50  0001 C CNN
-F 3 "~" H 8450 2750 50  0001 C CNN
-	1    8450 2750
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
